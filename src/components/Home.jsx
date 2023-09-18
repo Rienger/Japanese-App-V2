@@ -1,16 +1,13 @@
 import React from 'react'
-
-import Footer from './Footer'
 import studyImage from '../images/study.jpg'
 
 function Home() {
   return (
-    <div className='home-component'>
-      <div className='home-body container'>
-        <div className='home-mission'>
-          <h1>Yana Nihongo</h1>
-
-          <p className='w-4/5 mx-auto'>
+    <div className='custom-bg-color py-8'>
+      <div className='container mx-auto text-black'>
+        <div className='w-4/5 mx-auto'>
+          <h1 className='heading-text-2 text-4xl mb-5'>Yana Nihongo</h1>
+          <p>
             The goal of Yana Nihongo is to be able to provide study resources
             and introduce challenges to make learning more fun and interactive.
             We desire to lay the main foundation of your Japanese learning
@@ -19,7 +16,7 @@ function Home() {
           {/*  */}
         </div>
 
-        <div className=' w-3/4 mx-auto'>
+        <div className='w-4/5 mx-auto'>
           <h2 className='font-bold mt-16 mb-5 text-xl'>
             I WANT TO LEARN JAPANESE!
           </h2>
@@ -98,7 +95,7 @@ function Home() {
             steps. What feels slow now is actually speed later on.
           </p>
         </div>
-        <div className='home-summary'>
+        <div>
           {/* <div className='home-summary-banner'>
               
               <p>STEPS to FOLLOW</p>
@@ -107,8 +104,8 @@ function Home() {
               </div> */}
 
           <div className='w-3/4 mx-auto pt-10'>
-            <div className='home-summary-component '>
-              <h2 className='font-bold mt-16 mb-5'>Hiragana</h2>
+            <div>
+              <h2 className='font-bold mt-16 mb-5 text-center'>Hiragana</h2>
               <p>
                 The ability to read hiragana is going to be a prerequisite for
                 most beginner Japanese textbooks and resources. It's the first
@@ -117,8 +114,8 @@ function Home() {
               </p>
             </div>
 
-            <div className='home-summary-component'>
-              <h2 className='font-bold mt-16 mb-5'>Katakana</h2>
+            <div>
+              <h2 className='font-bold mt-16 mb-5 text-center'>Katakana</h2>
               <p>
                 Katakana tends to give learners more trouble than hiragana. This
                 is because it seems to be used less than hiragana and kanji,
@@ -128,8 +125,8 @@ function Home() {
               </p>
             </div>
 
-            <div className='home-summary-component'>
-              <h2 className='font-bold mt-16 mb-5'>5000 Vocabulary</h2>
+            <div>
+              <h2 className='font-bold mt-16 mb-5 text-center'>5000 Vocabulary</h2>
               <p>What Is The Magic Vocabulary Number?</p>
               <p>
                 When you think about the rather small amount of words that are
@@ -145,8 +142,8 @@ function Home() {
               </p>
             </div>
 
-            <div className='home-summary-component'>
-              <h2 className='font-bold mt-16 mb-5'>Parts of Speech</h2>
+            <div>
+              <h2 className='font-bold mt-16 mb-5 text-center'>Parts of Speech</h2>
               <p>
                 Most people go into a textbook with zero knowledge and wind up
                 spending a large chunk of their time looking up words they don't
@@ -162,8 +159,8 @@ function Home() {
               </p>
             </div>
 
-            <div className='home-summary-component'>
-              <h2 className='font-bold mt-16 mb-5'>Sentence Structure</h2>
+            <div>
+              <h2 className='font-bold mt-16 mb-5 text-center'>Sentence Structure</h2>
               <p>
                 Most people find Japanese sentence structure to be difficult and
                 confusing. This is completely understandable considering how
@@ -173,8 +170,8 @@ function Home() {
               </p>
             </div>
 
-            <div className='home-summary-component'>
-              <h2 className='font-bold mt-16 mb-5'>2000 Kanji</h2>
+            <div>
+              <h2 className='font-bold mt-16 mb-5 text-center'>2000 Kanji</h2>
               <p>
                 The most difficult thing about learning Japanese is kanji. At
                 least, that's what people say. But trying to save it or brush it
@@ -203,8 +200,8 @@ function Home() {
               </p>
             </div>
 
-            <div className='home-summary-component'>
-              <h2 className='font-bold mt-16 mb-5'>Reading & Listening</h2>
+            <div>
+              <h2 className='font-bold mt-16 mb-5 text-center'>Reading & Listening</h2>
               <p>
                 As the old saying goes: If you can’t go to Japan, you’ll just
                 have to bring Japan to you.
@@ -219,8 +216,8 @@ function Home() {
               </p>
             </div>
 
-            <div className='home-summary-component'>
-              <h2 className='font-bold mt-16 mb-5'>Speaking</h2>
+            <div>
+              <h2 className='font-bold mt-16 mb-5 text-center'>Speaking</h2>
               <p>
                 By finding opportunities to speak Japanese every day, you can
                 make sure that you’re able to reach or retain a high standard of
@@ -244,7 +241,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer />
+
     </div>
   )
 }

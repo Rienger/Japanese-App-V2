@@ -1,9 +1,8 @@
 import React from 'react'
 // import { useNavigate } from 'react-router-dom'
 import howl from '../../images/howl.jpg'
-import Footer from '../Footer'
 import howlAudio from '../../audio/how-finale.mp3'
-import Navbar from '../NAVBAR/Navbar'
+
 
 function Adverb() {
   let audio1 = new Audio(howlAudio)
@@ -15,7 +14,7 @@ function Adverb() {
 
   return (
     <div className='inner-background'>
-      <Navbar />
+   
 
       <header className='header'>
         <img
@@ -404,7 +403,6 @@ function Adverb() {
         <h1 className='adv-head'>Sample Sentence</h1>
       </div>
 
-      <Footer />
     </div>
   )
 }

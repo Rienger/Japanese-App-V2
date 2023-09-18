@@ -1,6 +1,6 @@
 import card from '../challenge-card'
 import Navbar from './NAVBAR/Navbar'
-import Footer from './Footer'
+
 
 import React, { useState, useEffect } from 'react'
 // import Monitor from './Monitor';
@@ -282,7 +282,7 @@ function App() {
 
         <img src={rightArrow} onClick={next} alt='right'></img>
       </div>
-      <Footer />
+    
     </div>
   )
 }

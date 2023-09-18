@@ -1,9 +1,8 @@
 import React from 'react'
 // import { useNavigate } from 'react-router-dom'
 import chihiro from '../../images/chihiro-final.jpg'
-import Footer from '../Footer'
 import chihiroAudio from '../../audio/spirited-away-final.mp3'
-import Navbar from '../NAVBAR/Navbar'
+
 
 function Adjective() {
   let audio1 = new Audio(chihiroAudio)
@@ -15,7 +14,6 @@ function Adjective() {
 
   return (
     <div className='inner-background'>
-      <Navbar />
       <div className='adj-parent'>
         <header className='header'>
           <img
@@ -268,7 +266,6 @@ function Adjective() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

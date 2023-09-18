@@ -1,6 +1,4 @@
 import React, { useEffect, useState, useRef } from 'react'
-import Navbar from '../NAVBAR/Navbar'
-import Footer from '../Footer'
 import { n5Kanji, n4Kanji } from './kanji-content'
 
 function Kanji() {
@@ -156,8 +154,6 @@ function Kanji() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   )
 }

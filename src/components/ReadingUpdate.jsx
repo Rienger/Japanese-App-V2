@@ -1,6 +1,4 @@
 import React, {useState} from 'react'
-import Navbar from './Navbar';
-import Footer from './Footer';
 import kaguya from '../images/story-kaguya.jpg'
 // import urashima from '../images/story-urashima.jpg'
 import storyContent from '../story-content'
@@ -23,7 +21,7 @@ function ReadingUpdate(){
     }
 
     return (<div className='inner-background'>
-    <Navbar />
+
     
     <header className='header'>
         <h1>Reading Practice</h1>
@@ -77,7 +75,7 @@ function ReadingUpdate(){
     </div> */}
 
 
-    <Footer />
+
     </div>
     )
 }

@@ -1,12 +1,10 @@
 import React from 'react'
-import Footer from './Footer'
-import Navbar from './NAVBAR/Navbar'
 import kanaTest from '../kanatest-content'
 
 function KanaTest() {
   return (
     <div className='inner-background'>
-      <Navbar />
+      
       <div className='kanatest-component'>
         {kanaTest.map((value) =>
           <div style={{ display: 'flex' }}>
@@ -19,7 +17,7 @@ function KanaTest() {
 
 
 
-      <Footer />
+   
     </div>
   )
 }

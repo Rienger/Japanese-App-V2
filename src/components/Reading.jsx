@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import Footer from './Footer'
-import Navbar from './NAVBAR/Navbar'
 import readingContent from '../reading-content'
 
 function Reading() {
@@ -157,7 +155,7 @@ function Reading() {
         </div>
       </div>
 
-      <Footer />
+    
     </div>
   )
 }

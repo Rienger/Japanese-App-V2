@@ -1,9 +1,8 @@
 import React from 'react'
 // import { useNavigate } from 'react-router-dom'
 import chise from '../../images/chise-hatori.jpg'
-import Footer from '../Footer'
 import magus from '../../audio/magus.mp3'
-import Navbar from '../NAVBAR/Navbar'
+
 
 function Verb() {
   let audio1 = new Audio(magus)
@@ -15,7 +14,7 @@ function Verb() {
 
   return (
     <div className='inner-background'>
-      <Navbar />
+ 
 
       <div className='verb-parent'>
         <header className='header'>
@@ -106,8 +105,6 @@ function Verb() {
           <h1 className='adj-conjugation-head'>Verb Conjugation</h1>
         </div>
       </div>
-
-      <Footer />
     </div>
   )
 }

@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <>
-      <div className='bg-green-900 relative py-4'>
+      <div className='bg-emerald-900 relative py-4'>
         <div className='flex justify-between items-center container mx-auto'>
           <NavLink className='link' exact to='/' activeClassName='active'>
             <img src={logo} alt='logo' className='rounded-full w-14'></img>

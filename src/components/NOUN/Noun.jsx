@@ -1,6 +1,4 @@
 import React from 'react'
-import Footer from '../Footer'
-import Navbar from '../NAVBAR/Navbar'
 import levi from '../../images/levi-final.jpg'
 import leviSound2 from '../../audio/levi-sound.mp3'
 import leviSound3 from '../../audio/giveup.mp3'
@@ -26,7 +24,6 @@ function Noun() {
 
   return (
     <div className='inner-background'>
-      <Navbar />
 
       <div className='topic-division'>
         <div className='vertical-topic'>
@@ -67,8 +64,6 @@ function Noun() {
 
         <div className='vertical-topic'></div>
       </div>
-
-      <Footer />
     </div>
   )
 }
