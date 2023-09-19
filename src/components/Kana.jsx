@@ -15,9 +15,9 @@ function Kana() {
           </h1>
 
           <iframe
-            className="border-4 border-teal-600 mb-7 rounded-md mx-auto w-2/3 h-96 max-w-full"
+            className="border-4 border-teal-600 mb-7 rounded-md mx-auto w-2/3  max-w-full"
             // width="896"
-            // height="508"
+            height="508"
             src="https://www.youtube.com/embed/6p9Il_j0zjc"
             title="YouTube video player"
             frameborder="0"
@@ -50,8 +50,8 @@ function Kana() {
           </h1>
 
           <iframe
-            className="border-4 border-sky-600 mb-7 rounded-md mx-auto w-2/3 h-96 max-w-full"
-            width="896"
+            className="border-4 border-sky-600 mb-7 rounded-md mx-auto w-2/3 max-w-full"
+            // width="896"
             height="508"
             src="https://www.youtube.com/embed/s6DKRgtVLGA"
             title="YouTube video player"

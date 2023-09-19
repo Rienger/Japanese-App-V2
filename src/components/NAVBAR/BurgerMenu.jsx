@@ -59,7 +59,7 @@ function BurgerMenu() {
               <NavbarLinks
                 className="hover:bg-green-700 py-4 animation duration-300 cursor-pointer"
                 linkName="PracticeVerb"
-                route="/random"
+                route="/practice-verb"
               />
             </div>
             <hr />

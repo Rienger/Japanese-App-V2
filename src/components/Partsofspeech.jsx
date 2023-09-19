@@ -7,11 +7,11 @@ function Partsofspeech() {
 
   return (
     <div className="inner-background">
-      <div className="pos-parent">
-        <div className="pos-category pt-10 tan">
+      <div className="text-center h-screen">
+        <div className="pt-10 tan flex justify-center gap-12">
           <div
             id="noun"
-            className="pos-div pos-noun w-52 h-96 rounded-lg duration-700 shadow-md shadow-slate-900 hover:duration-700"
+            className="l-green w-52 h-96 rounded-lg duration-700 shadow-md shadow-slate-900 hover:duration-700 hover:bg-stone-800 pt-6 group"
             onClick={() => navigate("/pos/noun/intro")}
             onMouseEnter={() => {
               setPosType("noun");
@@ -20,15 +20,17 @@ function Partsofspeech() {
               setPosType("hide");
             }}
           >
-            <h2>NOUNS</h2>
-            <div className="pos-div-icon">
-              <ion-icon name="body-outline"></ion-icon>{" "}
+            <div className="group-hover:text-amber-500">
+              <h2 className="my-5 font-semibold">NOUNS</h2>
+              <div className="text-4xl">
+                <ion-icon name="body-outline"></ion-icon>{" "}
+              </div>
             </div>
             <h3
               className={
                 posType === "noun"
-                  ? "show-pos-div-content"
-                  : "hide-pos-div-content"
+                  ? "visible p-4 text-stone-400 opacity-75"
+                  : "invisible"
               }
             >
               This page contains a course in Japanese Nouns and Words as well as
@@ -38,7 +40,7 @@ function Partsofspeech() {
 
           <div
             id="verb"
-            className="pos-div pos-verb"
+            className="l-purple w-52 h-96 rounded-lg duration-700 shadow-md shadow-slate-900 hover:duration-700 hover:bg-stone-800 pt-6 group"
             onClick={() => navigate("/pos/verb")}
             onMouseEnter={() => {
               setPosType("verb");
@@ -47,16 +49,18 @@ function Partsofspeech() {
               setPosType("hide");
             }}
           >
-            <h2>VERBS</h2>
-            <div className="pos-div-icon">
-              {" "}
-              <ion-icon name="bicycle-outline"></ion-icon>
+            <div className="group-hover:text-amber-500">
+              <h2 className="my-5 font-semibold">VERBS</h2>
+              <div className="text-4xl">
+                {" "}
+                <ion-icon name="bicycle-outline"></ion-icon>
+              </div>
             </div>
             <h3
               className={
                 posType === "verb"
-                  ? "show-pos-div-content"
-                  : "hide-pos-div-content"
+                  ? "visible p-4 text-stone-400 opacity-75"
+                  : "invisible"
               }
             >
               This page contains how to conjugate verb. To “conjugate” a verb is
@@ -67,7 +71,7 @@ function Partsofspeech() {
 
           <div
             id="adj"
-            className="pos-div pos-adj"
+            className="l-brown w-52 h-96 rounded-lg duration-700 shadow-md shadow-slate-900 hover:duration-700 hover:bg-stone-800  pt-6 group"
             onClick={() => navigate("/pos/adjective")}
             onMouseEnter={() => {
               setPosType("adj");
@@ -76,15 +80,17 @@ function Partsofspeech() {
               setPosType("hide");
             }}
           >
-            <h2>ADJECTIVES</h2>
-            <div className="pos-div-icon">
-              <ion-icon name="color-palette-outline"></ion-icon>
+            <div className="group-hover:text-amber-500">
+              <h2 className="my-5 font-semibold">ADJECTIVES</h2>
+              <div className="text-4xl">
+                <ion-icon name="color-palette-outline"></ion-icon>
+              </div>
             </div>
             <h3
               className={
                 posType === "adj"
-                  ? "show-pos-div-content"
-                  : "hide-pos-div-content"
+                  ? "visible p-4 text-stone-400 opacity-75"
+                  : "invisible"
               }
             >
               This page contains types of Japanese Adjectives and its
@@ -94,7 +100,7 @@ function Partsofspeech() {
 
           <div
             id="adv"
-            className="pos-div pos-adv"
+            className="l-blue w-52 h-96 rounded-lg duration-700 shadow-md shadow-slate-900 hover:duration-700 hover:bg-stone-800 pt-6 group"
             onClick={() => navigate("/pos/adverb")}
             onMouseEnter={() => {
               setPosType("adv");
@@ -103,15 +109,17 @@ function Partsofspeech() {
               setPosType("hide");
             }}
           >
-            <h2>ADVERBS</h2>
-            <div className="pos-div-icon">
-              <ion-icon name="library-outline"></ion-icon>
+            <div className="group-hover:text-amber-500">
+              <h2 className="my-5 font-semibold">ADVERBS</h2>
+              <div className="text-4xl">
+                <ion-icon name="library-outline"></ion-icon>
+              </div>
             </div>
             <h3
               className={
                 posType === "adv"
-                  ? "show-pos-div-content"
-                  : "hide-pos-div-content"
+                  ? "visible p-4 text-stone-400 opacity-75"
+                  : "invisible"
               }
             >
               This page explains how Japanese adverbs work with relevant
@@ -121,7 +129,7 @@ function Partsofspeech() {
         </div>
 
         <div
-          className="sentence-structure"
+          className="sentence-structure tan l-cyan mx-auto mt-10 w-1/2 h-52 rounded-lg duration-700 shadow-md shadow-slate-900 hover:duration-700 hover:bg-stone-800  pt-6 group"
           onMouseEnter={() => {
             setPosType("sentence-structure");
           }}
@@ -129,18 +137,18 @@ function Partsofspeech() {
             setPosType("hide");
           }}
         >
-          <div>
-            <h2>SENTENCE STRUCTURE</h2>
-          </div>
+          <div className="group-hover:text-amber-500">
+            <h2 className="my-3 font-semibold">SENTENCE STRUCTURE</h2>
 
-          <div className="pos-div-icon">
-            <ion-icon name="analytics-outline"></ion-icon>
+            <div className="text-4xl">
+              <ion-icon name="analytics-outline"></ion-icon>
+            </div>
           </div>
           <h3
             className={
               posType === "sentence-structure"
-                ? "show-pos-div-content"
-                : "hide-pos-div-content"
+                ? "visible text-stone-400 opacity-75"
+                : "invisible"
             }
           >
             This page explains the basic word order when constructing a

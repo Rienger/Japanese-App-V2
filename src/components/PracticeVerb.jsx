@@ -148,12 +148,12 @@ function Random() {
 
           <div className="text-center">
             <input
-              className="focus:border-emerald-600 outline-0 border border-gray-400 py-3 w-3/4 mx-auto my-4"
+              className="focus:border-emerald-600 outline-0 border-2 border-gray-400 py-3 w-3/4 mx-auto my-10"
               placeholder="Enter your answer"
               onChange={onChange}
               autoFocus="autofocus"
               value={input}
-            ></input>{" "}
+            />
             <button
               className="bg-emerald-900 text-white px-7 py-2 rounded-full"
               onClick={dictionaryForm}

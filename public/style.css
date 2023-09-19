@@ -42,16 +42,8 @@ body {
   background-color: rgb(63, 63, 97);
 }
 
-.l-green {
-  margin: auto;
-  margin-top: 50px;
-  width: 700px;
-  height: 200px;
-  color: tan;
+.l-cyan {
   background-color: rgb(63, 97, 94);
-  border-radius: 8px;
-  display: inline-block;
-  box-shadow: 7px 5px 3px rgba(0, 0, 0, 0.7);
 }
 
 /***** COLOR *******/
@@ -208,126 +200,6 @@ input {
 
 .home-summary ul {
   margin-left: 20px;
-}
-
-/* FOR PARTS OF SPEECH *************************************/
-
-.pos-parent {
-  color: #1f241f;
-  text-align: center;
-  max-width: 950px;
-  margin: auto;
-  height: 800px;
-}
-
-.pos-category {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 50px;
-}
-
-.pos-div {
-  /* width: 200px;
-  height: 450px;
-  border-radius: 7px; */
-  /* color: tan; */
-  /* box-shadow: 7px 5px 2px rgba(0, 0, 0, 0.7);
-  transition: 0.3s; */
-}
-
-.pos-div h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-
-.pos-div h3 {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  margin-top: 20px;
-  width: 160px;
-  line-height: 1.4em;
-  font-size: 16px;
-  letter-spacing: 1.4px;
-  color: rgba(207, 193, 193, 0.521);
-}
-
-.pos-div-icon {
-  font-size: 40px;
-}
-
-.pos-div-hide {
-  visibility: hidden;
-}
-
-.pos-div-display {
-  visibility: visible;
-}
-
-.pos-div:hover,
-.sentence-structure:hover {
-  color: rgb(223, 150, 15);
-  cursor: pointer;
-  background-color: rgba(29, 25, 25, 0.9);
-  transition: 0.4s;
-  box-shadow: none;
-}
-
-.show-pos-div-content {
-  visibility: visible;
-}
-
-.hide-pos-div-content {
-  visibility: hidden;
-}
-
-.pos-noun {
-  background-color: rgb(67, 97, 63);
-}
-
-.pos-verb {
-  background-color: rgb(97, 63, 94);
-}
-
-.pos-adj {
-  background-color: rgb(97, 82, 63);
-}
-
-.pos-adv {
-  background-color: rgb(63, 63, 97);
-}
-
-.sentence-structure {
-  margin: auto;
-  margin-top: 50px;
-  width: 700px;
-  height: 200px;
-  color: tan;
-  background-color: rgb(63, 97, 94);
-  border-radius: 8px;
-  display: inline-block;
-  box-shadow: 7px 5px 3px rgba(0, 0, 0, 0.7);
-}
-
-.sentence-structure h2 {
-  margin-top: 20px;
-  margin-bottom: 15px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-
-.sentence-structure h3 {
-  line-height: 1.4em;
-  font-size: 16px;
-  letter-spacing: 1.4px;
-  color: rgba(207, 193, 193, 0.521);
-}
-
-.sentence-structure .pos-div-icon {
-  font-size: 50px;
 }
 
 /* FOR TABLE **************************************************/

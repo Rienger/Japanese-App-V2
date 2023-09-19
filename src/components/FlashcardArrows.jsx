@@ -9,15 +9,21 @@ import {
 const FlashcardArrows = ({ previousCard, counter, arrayRange, nextCard }) => {
   return (
     <div className="mx-auto flex justify-center gap-4 items-center text-gray-800">
-      <span className="arrow" onClick={previousCard}>
-        <FontAwesomeIcon className="text-3xl" icon={faCircleChevronLeft} />
+      <span className="arrow cursor-pointer" onClick={previousCard}>
+        <FontAwesomeIcon
+          className="text-3xl hover:text-gray-900"
+          icon={faCircleChevronLeft}
+        />
       </span>
       <span className="flashcard-count text-xl">
         {" "}
         {counter + 1}/{arrayRange}{" "}
       </span>
-      <span className="arrow" onClick={nextCard}>
-        <FontAwesomeIcon className="text-3xl" icon={faCircleChevronRight} />
+      <span className="arrow cursor-pointer" onClick={nextCard}>
+        <FontAwesomeIcon
+          className="text-3xl hover:text-gray-900"
+          icon={faCircleChevronRight}
+        />
       </span>
     </div>
   );
