@@ -7,7 +7,7 @@ function Kana() {
   const navigate = useNavigate();
 
   return (
-    <div className="inner-background">
+    <div className="custom-bg-color">
       <div className="text-center w-5/6 mx-auto">
         <div className="pb-64">
           <h1 className="text-5xl text-gray-600 font-bold py-3">

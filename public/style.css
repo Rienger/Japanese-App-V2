@@ -48,11 +48,6 @@ body {
 
 /***** COLOR *******/
 
-.container h1 {
-  font-size: 40px;
-  font-weight: 200;
-}
-
 input {
   border: 1px solid rgba(252, 252, 252, 0.4);
   background-color: rgba(252, 252, 252, 0.2);
@@ -332,16 +327,12 @@ input {
 
 /* VERB DISPLAY ********************************************/
 
-.inner-background {
-  background-color: #c1c1af;
-}
-
-.verb-parent {
+/* .verb-parent {
   max-width: 1000px;
   margin: auto;
-}
+} */
 
-.verb-head {
+/* .verb-head {
   color: black;
   display: flex;
   width: 69%;
@@ -349,7 +340,7 @@ input {
   padding-top: 2.3em;
   font-weight: 600;
   font-size: 1.8em;
-}
+} */
 
 /*  ADJECTIVE DISPLAY *****************************************/
 
@@ -1311,7 +1302,6 @@ nav > ul > div:first-child {
 
 .link:hover {
   color: rgb(209, 62, 86);
-  /* text-shadow: 1px 2px rgb(183, 0, 255); */
 }
 
 .space {
@@ -1319,8 +1309,9 @@ nav > ul > div:first-child {
 }
 
 .active {
-  color: rgb(209, 62, 86);
+  color: white !important;
   text-decoration: none;
+  background: darkgreen !important;
 }
 
 .abs-left {

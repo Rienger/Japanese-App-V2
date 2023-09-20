@@ -5,9 +5,6 @@
 //     }
 // ]
 
-const kanaTest = ['あ','い','う','え','お']
-     
-
-
+const kanaTest = ["あ", "い", "う", "え", "お"];
 
 export default kanaTest;

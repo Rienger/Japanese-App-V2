@@ -1,45 +1,45 @@
-import React from 'react'
+import React from "react";
 // import { useNavigate } from 'react-router-dom'
-import chise from '../../images/chise-hatori.jpg'
-import magus from '../../audio/magus.mp3'
-
+import chise from "../../images/chise-hatori.jpg";
+import magus from "../../audio/magus.mp3";
 
 function Verb() {
-  let audio1 = new Audio(magus)
+  let audio1 = new Audio(magus);
 
   const start = () => {
-    audio1.play()
-    audio1.volume = 0.6
-  }
+    audio1.play();
+    audio1.volume = 0.6;
+  };
 
   return (
-    <div className='inner-background'>
- 
-
-      <div className='verb-parent'>
-        <header className='header'>
+    <div className="custom-bg-color ">
+      <div className="verb-parent w-3/4 border-2 border-gray-700 mx-auto">
+        <header className="header mx-auto text-center">
           <img
+            className="mx-auto"
             onClick={start}
             src={chise}
-            width='150px'
-            height='auto'
-            alt='gojo'
+            width="150px"
+            height="auto"
+            alt="gojo"
           ></img>
           <h1>3 TYPES OF VERBS</h1>
-          <p className='adv-p'>
+          <p className="adv-p">
             Verbs are one of the most important parts of speech, and it’s said
             that verbs are the second most frequently used words (26%, next to
             nouns at 42%) among all other categories of words in daily Japanese
-            conversations.{' '}
+            conversations.{" "}
           </p>
         </header>
 
-        <div>
-          <h1 className='verb-head'>TYPE 1 / U Ending Verbs</h1>
+        <div className="text-center">
+          <h1 className="verb-head text-gray-900 mx-auto font-semibold text-3xl">
+            TYPE 1 / U Ending Verbs
+          </h1>
         </div>
 
-        <div className='table'>
-          <table className='content-table'>
+        <div className="table">
+          <table className="content-table">
             <tr>
               <th>あらう (to wash)</th>
               <th>うたう (to sing)</th>
@@ -62,11 +62,13 @@ function Verb() {
         </div>
 
         <div>
-          <h1 className='verb-head'>TYPE 2 / IRU & ERU Ending Verbs</h1>
+          <h1 className="verb-head text-gray-900 mx-auto font-semibold text-3xl text-center">
+            TYPE 2 / IRU & ERU Ending Verbs
+          </h1>
         </div>
 
-        <div className='table'>
-          <table className='content-table'>
+        <div className="table">
+          <table className="content-table">
             <tr>
               <th>たべる (to eat)</th>
               <th>しゃべる (to chat)</th>
@@ -89,11 +91,13 @@ function Verb() {
         </div>
 
         <div>
-          <h1 className='verb-head'>TYPE 3 / Suru & Kuru</h1>
+          <h1 className="verb-head text-gray-900 mx-auto font-semibold text-3xl text-center">
+            TYPE 3 / Suru & Kuru
+          </h1>
         </div>
 
-        <div className='table'>
-          <table className='content-table'>
+        <div className="table">
+          <table className="content-table">
             <tr>
               <th>する (to do)</th>
               <th>くる (to come)</th>
@@ -101,12 +105,12 @@ function Verb() {
           </table>
         </div>
 
-        <div className='header'>
-          <h1 className='adj-conjugation-head'>Verb Conjugation</h1>
+        <div className="header">
+          <h1 className="adj-conjugation-head">Verb Conjugation</h1>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Verb
+export default Verb;
